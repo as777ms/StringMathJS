@@ -180,3 +180,52 @@ var str = "Hello Cybrosys";
 var toUpperCase_expr = str.toUpperCase();
 console.log(toUpperCase_expr);//HELLO CYBROSYS
 ```
+
+
+### Math Methods
+# 1) Math.abs()
+>i minusara + mekna
+```js
+Math.abs(-1); // 1
+```
+# 2) Math.floor()
+>i xamu adad azdax doram bowa xamu adada niwon meta to xdi adada kalonw nawava maqsad azdaxdorakwa megira
+```js
+console.log(Math.floor(5.95));
+// Expected output: 5
+```
+# 3) Math.min()
+>i xurdtarina da baini xamu adad mebrora
+```js
+console.log(Math.min(1, 3, 2));
+// Expected output: 1
+```
+
+# 4) Math.max()
+>i kalontarina da baini xamu adad mebrora
+```js
+console.log(Math.max(1, 3, 2));
+// Expected output: 3
+```
+
+# 5) Math.pow()
+>i darajai xamu adata mebrora 2 parametr megira 1 kadom adad 2 darajaw
+```js
+console.log(Math.pow(7, 3));
+// Expected output: 343
+```
+
+# 6) Math.random()
+> i randomno mebrora ai 0 to 0 az mlrd baroi ki moda adadi darkorimona bubrora darkorai ki ura ba i zar knm
+```js
+let a=10
+let a2=(Math.floor(Math.random()*10))
+console.log(a2);//it will return everything till 10
+```
+
+# 7) Math.round()
+>ida xami azdax 1 ki wid uzhe kalon mexisoba raqama
+```js
+console.log(Math.round(0.9));
+// Expected output: 1
+```

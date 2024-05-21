@@ -33,6 +33,9 @@
 // var str = "Hello Cybrosys";
 // var substring_expr = str.substring(13, 5);
 // console.log(substring_expr);//Cybrosy
-var str = "Hello Cybrosys";
-var toLowerCase_expr = str.toLowerCase();
-console.log(toLowerCase_expr);//hello cybrosys
+// var str = "Hello Cybrosys";
+// var toLowerCase_expr = str.toLowerCase();
+// console.log(toLowerCase_expr);//hello cybrosys
+let a=10
+let a2=(Math.floor(Math.random()*10))
+console.log(a2);
